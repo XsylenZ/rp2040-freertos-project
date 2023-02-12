@@ -21,5 +21,5 @@ project(Pico-FreeRTOS)
 # Initialize the SDK
 pico_sdk_init()
 
-add_subdirectory(FreeRTOS)
-add_subdirectory(ProjectFiles)
+add_subdirectory(freertos)
+add_subdirectory(project-files)
