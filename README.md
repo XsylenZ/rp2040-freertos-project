@@ -1,5 +1,11 @@
 # rp2040-freertos-project
 
+### Load submodules:
+```
+$ git submodule update --init
+
+```
+
 ### Load Pico SDK submodules:
 ```
 $ cd pico-sdk
