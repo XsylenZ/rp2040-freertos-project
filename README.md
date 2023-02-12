@@ -1,5 +1,14 @@
 # rp2040-freertos-project
 
+### Load Pico SDK submodules:
+```
+$ cd pico-sdk
+
+$ git submodule update --init
+
+$ cd ..
+```
+
 ## Clion:
 For the SDK to understand where the toolchain path is, it is necessary to add 'PICO_TOOLCHAIN_PATH' in the environment variables. To do so in CLion, open the settings menu and  go to:
 1. Build, Execution,  Deployment -> CMake;
