@@ -2,17 +2,8 @@
 
 ### Load submodules:
 ```
-$ git submodule update --init
+$ git submodule update --init --recursive
 
-```
-
-### Load Pico SDK submodules:
-```
-$ cd pico-sdk
-
-$ git submodule update --init
-
-$ cd ..
 ```
 
 ## Clion:
