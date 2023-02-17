@@ -2,17 +2,8 @@
 
 ### Load submodules:
 ```
-$ git submodule update --init
+$ git submodule update --init --recursive
 
-```
-
-### Load Pico SDK submodules:
-```
-$ cd pico-sdk
-
-$ git submodule update --init
-
-$ cd ..
 ```
 
 ## Clion:
@@ -22,4 +13,8 @@ For the SDK to understand where the toolchain path is, it is necessary to add 'P
 3. Environment var.: Pico SDK Path (relative to build folder)
 4. Environment var.:  Pico Toolchain -> ARM binary path
 
+<<<<<<< HEAD
 ![image.png](img/clion-config-example.png)
+=======
+![image.png](clion-config-example.png)
+>>>>>>> refs/remotes/origin/main
